@@ -1,0 +1,33 @@
+---
+title: Biotechnology Guest Lecture
+author: Abhijit Dasgupta
+date: March 1, class
+output:
+  html_document:
+    theme: united
+---
+
+### Biotechnology, Big Data, Artificial Intelligence: Promises, Dangers, Worries, Gotchas
+
+__Abstract:__ This presentation provides an overview of how Big Data and Artificial Intelligence
+can play a role in the advancement of biotechnology both from a scientific and a business
+perspective. Though the promise of Big Data and AI is huge, it is also a path
+filled with peril, if the practitioner is not aware or careful. Several cautionary 
+situations are presented where it is evident that Big Data + AI is not the panacea
+for all situtations, and in fact, these issues are increasingly being highlighted in
+the scientific and genral media. 
+
+Formats:
+```{r, echo = F, message = F, warning = F}
+library(tidyverse)
+d <- tribble(~Format, ~Link,
+			 "Online", "[link](online/GMU_class/index.html)",
+             "Keynote", "[link](GMU_class.key)",
+             "Powerpoint", "[link](GMU_class.pptx)",
+             "PDF", '[link](GMU_class.pdf)')
+knitr::kable(d)
+
+```
+
+
+
