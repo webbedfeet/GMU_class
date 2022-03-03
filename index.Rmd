@@ -1,7 +1,7 @@
 ---
 title: Biotechnology Guest Lecture
 author: Abhijit Dasgupta
-date: March 1, class
+date: March 3, 2022
 output:
   html_document:
     theme: united
